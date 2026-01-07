@@ -1,24 +1,18 @@
-# Online Deep Learning for Industrial Time-Series Prediction under Concept Drift
+# Reservoir Computing for Real-World Time-Series Prediction
 
-## 📌 Project Overview
-This research proposes a **Fuzzy-Adaptive Online LSTM** to handle Concept Drift in industrial sensor data. Unlike static models, this system learns continuously and adapts its learning rate dynamically using Fuzzy Logic when prediction error spikes.
+**WCCI Topic Code:** WCCI-26-DL-10
 
-## 🚀 Key Features
-- **Online Learning:** Processes data streams one sample at a time (no batch training).
-- **Concept Drift Detection:** Uses ADWIN (Adaptive Windowing) to detect system faults.
-- **Fuzzy Adaptation:** dynamically adjusts the optimizer's Learning Rate based on real-time loss.
-- **Simulated Environment:** Includes a synthetic industrial data stream generator with programmed drift events.
+## Objective
+This project investigates the use of Reservoir Computing, specifically Echo State Networks, for real-world time-series prediction and compares its performance with traditional deep learning baselines.
 
-## 📊 Results
-Our experiment demonstrates rapid recovery from sudden concept drift.
-![Results Graph](results_graph.png)
+## Current Status
+- Baseline paper reading completed
+- Repository structure set up
+- Initial documentation in progress
+- Experiments to begin
 
-* **Step 450:** Early drift warning detected.
-* **Step 1000:** Induced Concept Drift (simulated failure).
-* **Step 1001+:** The Fuzzy-LSTM adapts immediately, reducing error back to near-zero levels.
+## Team
+See `admin/contributors.md`
 
-## 🛠️ Installation & Usage
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/WCCI-26-DL-10.git](https://github.com/YOUR_USERNAME/WCCI-26-DL-10.git)
-   cd WCCI-26-DL-10
+## Mentor
+Faculty Mentor: CodTan
